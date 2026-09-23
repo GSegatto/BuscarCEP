@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Busca de CEP</title>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Buscar CEP</h1>
+
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" placeholder="Ex: 01001-000">
+
+        <div id="mensagem"></div>
+        
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro" readonly>
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" readonly>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" readonly>
+
+        <div class="botoes">
+            <button id="buscar">Buscar</button>
+            <button id="limpar">Limpar</button> 
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

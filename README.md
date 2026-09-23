@@ -49,6 +49,10 @@ O objetivo deste projeto foi praticar conceitos de desenvolvimento Front-end, pr
 - Validação de dados
 - Tratamento de erros
 
+## Site Funcional
+
+Link do site funcionando: https://buscar-cep-five.vercel.app/
+
 ## Como executar
 
 1. Clone este repositório:
